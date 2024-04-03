@@ -1,0 +1,426 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.landingscreen {
+    background-image: url(images/Untitled\ design\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.linktextw{
+    text-decoration: none;
+    color: white;
+}
+.linktextb{
+    text-decoration: none;
+    color: white;
+}
+.linktextwh{
+    text-decoration: none;
+    color: white;
+}
+.linktextbh{
+    text-decoration: none;
+    color: white;
+}
+.linktextwh:hover{
+    color: black;
+}
+.linktextbh:hover{
+    color: white;
+}
+.para{
+    margin: 7px;
+    color: rgb(55, 55, 55);
+}
+.container{
+    padding: 60px;
+}
+header {
+    padding: 40px;
+    align-items: center;
+
+}
+header p {
+    color: white;
+    font-weight: bold;
+    float: left;
+    display: inline;
+
+}
+.navbar {
+    display: inline;
+    list-style: none;
+    float: right;
+}
+.navbar li {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: inline;
+    transition: 0.5s;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: #C0D6E8;
+    cursor: pointer;
+}
+.navbar .activeli{
+    background-color: #751c1c;
+    padding: 5px 10px;
+}
+.midsection {
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    margin: 90px auto auto auto;
+}
+.midsection h1 {
+    font-size: 50px;
+}
+.btn {
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid black;
+}
+#btnmidsection:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+#btnmidsection {
+    border: 1px solid white;
+    color: white;
+}
+.support {
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    margin: 35px;
+    background-color: white;
+}
+.support h1 {
+    display: inline;
+}
+.colororange{
+    color: orangered;
+}
+.colorwhite{
+    color: blue;
+}
+
+.colorgreen{
+    color: green;
+}
+
+.sthboxesdiv{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sthboxes{
+
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 15px 15px;
+    color: white;
+    width: 300px;
+}
+#culture{
+    background-image: url(/images/woman-2178480_640.jpg);
+}
+#beaches{
+    background-image: url(images/sunset-3885886.jpg);
+}
+#mnt{
+    background-image: url(images/camel-3607412.jpg);
+}
+#wrp{
+    background-image: url(images/gurudwara-6278838.jpg);
+}
+#snw{
+     background-image: url(images/landscape-2176347\ \(1\).jpg);
+}
+#city{
+    background-image: url(images/india-3544450.jpg);
+}
+
+.sthboxes h3{
+    text-shadow: 2px 2px 8px black;
+}
+.ranktable{
+    border: 2px solid #751c1c;
+    margin: 50px auto 0px auto;
+    text-align: center;
+    
+}
+.ranktable th{
+    padding: 10px;
+    border: 2px solid #751c1c;
+}
+.ranktable td{
+    padding: 10px;
+    border: 2px solid #751c1c;
+}
+.top3{
+    margin: 50px;
+}
+
+.top3boxesdiv{
+    margin: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.top3boxes{
+    height: 400px;
+padding: 10px;
+border-radius: 20px;
+margin: 50px 15px 80px;
+color: rgb(0, 0, 0);
+width: 300px;
+}
+.top3boxes img{
+    width: 400px;
+    max-height: 300px;
+
+}
+
+.top3boxes p{
+    font-size: 13px;
+}
+
+.top3boxes h3{
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.textarea{
+    color: white;
+    margin: 60px;
+    border-radius: 40px;
+    background-image: url(images/Untitled\ design\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    padding: 140px;
+}
+
+.textarea p{
+    text-shadow: 4px 4px 5px black;
+    font-size: 14px;
+}
+
+.whyindiacontainer{
+    margin-bottom: 80px;
+    padding: 150px 80px 150px 80px;
+    background-color: #C0D6E8;
+}
+
+.whyindiacontainer h1{
+    width: 30%;
+    text-align: center;
+    margin: 0px auto 60px auto;
+}
+
+.whyindiacontainer p{
+    font-size: 14px;
+    color: black;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #751c1c;
+}
+
+.journeystarts{
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin: 0px auto 60px auto;
+    border-radius: 40px;
+    background-image: url(images/man-1850181.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+#btnjourneystarts:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+#btnjourneystarts {
+    border: 1px solid white;
+    color: white;
+}
+.journeystarts h1{
+    text-shadow: 8px 8px 10px black;
+}
+.journeystarts button{
+    text-shadow: 8px 8px 10px black;
+}
+
+.landingscreenabout{    
+    background-image: url(images/Untitled\ design\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+
+.landingscreenabout h1{
+    color: white;
+    margin: 80px auto 1px auto;
+    width: 50%;
+}
+
+
+/* States page */
+.stateslink{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.stateslink:hover{
+    color: #751c1c;
+}
+
+
+/* states landing page*/
+.landingscreen1{ 
+    color: white;
+    text-shadow: 10px 10px 25px black;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.landingscreen1 h1{
+    font-size: 70px;
+    color: white;
+    margin: 80px auto 1px auto;
+    width: 50%;
+}
+
+/*Rajasthan*/
+
+.landingscreenrajasthan{
+    background-image: url(images/jaipur-3670085.jpg);
+    color: white;
+
+}
+#udaipur{
+    background-image: url(images/udaipur-4486566.jpg);
+}
+#Jaisalmer{
+    background-image: url(images/bada-bagh-1936779.jpg);
+}
+#jaipur{
+    background-image: url(images/corridor-5587351.jpg);
+}
+
+/*Goa*/
+.goalandingscreen{
+    background-image: url(images/goa.jfif);
+}
+
+
+/*utte pradesh*/
+.Uplandingscreen{
+    background-image: url(images/taj-mahal-380045.jpg);
+}
+
+
+
+/*Up*/
+#Agra{
+    background-image: url(images/agra.jpg);
+}
+#Ayodhya{
+    background-image: url(images/ayodhya.webp);
+}
+#Varanasi{
+    background-image: url(images/varanasi.webp);
+}
+
+/* kasmir*/
+.kashlandingscreen{
+    background-image: url(images/kasmir.avif);
+}
+
+/* kerala*/
+.keralalandingscreen{
+    background-image: url(images/kerela.jpg);
+}
+#kochi{
+    background-image: url(images/kochi.jpg) ;
+}
+#thiru{
+    background-image: url(images/thiruvananthapuram.jpeg);
+}
+#Munnar{
+    background-image: url(images/munnar.jfif);
+}
+#ala{
+    background-image: url(images/alappuzha.avif);
+}
+
+/*Ncr*/
+.ncrlandingscreen{
+    background-image: url(images/ncr.jpg);
+}
+#goback{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Form Pages*/
+.freeguideform input, textarea, select{
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.freeguideform input::placeholder, textarea::placeholder, select::placeholder{
+    color: white;
+}
+.freeguideform .btn{
+    color: white;
+    border-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
